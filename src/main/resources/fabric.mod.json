@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "enchantforge",
+	"version": "${version}",
+	"name": "Enchantment Forge",
+	"description": "Adds the Enchantment Forge: upgrade the enchantments of weapons, armor and tools beyond their vanilla limit (up to a configurable level), paid with the item's own material and with a success chance that drops the higher you go.",
+	"authors": [
+		"nasty.codes"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/${slug}",
+		"sources": "https://github.com/nastycodes/enchantment-forge",
+		"issues": "https://github.com/nastycodes/enchantment-forge/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/enchantforge/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"codes.nasty.enchantforge.EnchantForge"
+		],
+		"client": [
+			"codes.nasty.enchantforge.client.EnchantForgeClient"
+		],
+		"modmenu": [
+			"codes.nasty.enchantforge.client.config.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

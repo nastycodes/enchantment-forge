@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "enchantforge-gametest",
+	"version": "1.0.0",
+	"name": "Enchantment Forge Game Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"codes.nasty.enchantforge.test.EnchantForgeClientGameTest"
+		]
+	},
+	"depends": {
+		"enchantforge": "*"
+	}
+}

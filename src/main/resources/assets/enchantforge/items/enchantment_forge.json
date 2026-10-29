@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "enchantforge:block/enchantment_forge"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"DED",
+		"OAO",
+		"OOO"
+	],
+	"key": {
+		"D": "minecraft:diamond",
+		"E": "minecraft:enchanting_table",
+		"A": "minecraft:anvil",
+		"O": "minecraft:obsidian"
+	},
+	"result": {
+		"id": "enchantforge:enchantment_forge",
+		"count": 1
+	}
+}

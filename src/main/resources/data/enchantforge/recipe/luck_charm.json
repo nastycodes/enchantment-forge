@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" B ",
+		"BIB",
+		" B "
+	],
+	"key": {
+		"B": "minecraft:bone",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "enchantforge:luck_charm",
+		"count": 2
+	}
+}

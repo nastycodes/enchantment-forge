@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "enchantforge:block/enchantment_forge"
+		}
+	}
+}

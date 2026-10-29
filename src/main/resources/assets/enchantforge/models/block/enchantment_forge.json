@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"top": "enchantforge:block/enchantment_forge_top",
+		"bottom": "enchantforge:block/enchantment_forge_bottom",
+		"side": "enchantforge:block/enchantment_forge_side"
+	}
+}
